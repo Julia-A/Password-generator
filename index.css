@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: hsla(265, 53%, 29%, 1);
+
+    background: linear-gradient(135deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#faae7b", GradientType=1 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    padding-inline: 1rem;
+}
+.box
+{
+    background-color: white;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.box h2
+{
+    color: #11071f;
+    text-shadow: 0 0 6px #11071f;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.box input
+{
+    padding: 0.6rem 1.2rem;
+    font-size: 1.2rem;
+    user-select: none;
+    border: 2px solid #faae7b;
+    border-radius: 6px;
+    box-shadow: 0 0 3px #11071f;
+    outline: none;
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+.box button
+{
+    display: block;
+    margin-inline: auto;
+    font-family: inherit;
+    padding: 0.6rem 1.2rem;
+    background-color: #1f1530;
+    color: #faae7b;
+    text-shadow: inherit;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.box button:hover
+{
+    opacity: 0.7;
+}
+.box #generate-password-btn
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
